@@ -1,0 +1,40 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Skin",
+      "value": "Mottled pink-tan"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Heavy-lidded, green-grey"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Buck teeth"
+    },
+    {
+      "trait_type": "Drool",
+      "value": "Orange, constant"
+    },
+    {
+      "trait_type": "Antennae",
+      "value": "Dark brown, glowing yellow tips"
+    },
+    {
+      "trait_type": "Collar",
+      "value": "Black, orange studs"
+    },
+    {
+      "trait_type": "Companions",
+      "value": "Three flies"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Long thin limbs, big bare feet"
+    }
+  ],
+  "description": "Fester: pale mottled skin, two buck teeth, orange drool, antennae with glowing yellow tips, a black collar with orange studs, and three flies that follow him everywhere. Built to walk the Hiveverse as a 3D character.",
+  "external_url": "https://hivemindos.liamvisionary.com/hiveverse/",
+  "image": "https://raw.githubusercontent.com/pixeldregsz-cmyk/pixel-builds/main/C9EFBE36-BA4F-4B85-AEBC-B3B27ADF473B.png",
+  "name": "Fester"
+}
