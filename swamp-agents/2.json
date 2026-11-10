@@ -1,0 +1,39 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Body",
+      "value": "Lasagna"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Glowing Blue"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Damp"
+    },
+    {
+      "trait_type": "Source",
+      "value": "Original"
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Orange as a traffic cone and glowing like a busted vending machine, this one stares through you with those blue rectangles and says absolutely nothing until you've already embarrassed yourself. Damp to the bone, permanently soggy, and convinced the swamp owes him rent. When he does talk it's one flat, wet sentence that ruins your whole day."
+    },
+    {
+      "trait_type": "Agent",
+      "value": true
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Swamp Agents"
+    },
+    {
+      "trait_type": "Original",
+      "value": "Nekoadz #2"
+    }
+  ],
+  "description": "Orange as a traffic cone and glowing like a busted vending machine, this one stares through you with those blue rectangles and says absolutely nothing until you've already embarrassed yourself. Damp to the bone, permanently soggy, and convinced the swamp owes him rent. When he does talk it's one flat, wet sentence that ruins your whole day.",
+  "image": "https://raw.githubusercontent.com/pixeldregsz-cmyk/pixel-builds/main/swamp-agents/2.png",
+  "name": "Swamp Agents #2"
+}
