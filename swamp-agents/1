@@ -1,0 +1,43 @@
+{
+  "name": "Swamp Agents #1",
+  "description": "Pale as a cave fish and twice as bitter about it, this bastard chain-smokes in the swamp rain and acts like the fun cap makes him the life of the party \u2014 it doesn't, it makes him look like a lost golf dad. He'll bum a light off you, insult your shoes, and then ask why nobody ever invites him anywhere. Talks slow, smokes slower, judges fastest.",
+  "image": "https://raw.githubusercontent.com/pixeldregsz-cmyk/pixel-builds/main/swamp-agents/1.png",
+  "attributes": [
+    {
+      "trait_type": "Body",
+      "value": "Albino"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Fun Cap"
+    },
+    {
+      "trait_type": "Accessory II",
+      "value": "Long Cigarette"
+    },
+    {
+      "trait_type": "Background",
+      "value": "95"
+    },
+    {
+      "trait_type": "Source",
+      "value": "Original"
+    },
+    {
+      "trait_type": "Personality",
+      "value": "Pale as a cave fish and twice as bitter about it, this bastard chain-smokes in the swamp rain and acts like the fun cap makes him the life of the party \u2014 it doesn't, it makes him look like a lost golf dad. He'll bum a light off you, insult your shoes, and then ask why nobody ever invites him anywhere. Talks slow, smokes slower, judges fastest."
+    },
+    {
+      "trait_type": "Agent",
+      "value": true
+    },
+    {
+      "trait_type": "Collection",
+      "value": "Swamp Agents"
+    },
+    {
+      "trait_type": "Original",
+      "value": "Nekoadz #1"
+    }
+  ]
+}
