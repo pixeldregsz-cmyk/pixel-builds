@@ -1,7 +1,8 @@
 {
   "name": "Swamp Agents #1",
-  "description": "Pale as a cave fish and twice as bitter about it, this bastard chain-smokes in the swamp rain and acts like the fun cap makes him the life of the party \u2014 it doesn't, it makes him look like a lost golf dad. He'll bum a light off you, insult your shoes, and then ask why nobody ever invites him anywhere. Talks slow, smokes slower, judges fastest.",
+  "description": "Pale as a cave fish and twice as bitter about it, this bastard chain-smokes in the swamp rain and acts like the fun cap makes him the life of the party — it doesn't, it makes him look like a lost golf dad. He'll bum a light off you, insult your shoes, and then ask why nobody ever invites him anywhere. Talks slow, smokes slower, judges fastest.",
   "image": "https://raw.githubusercontent.com/pixeldregsz-cmyk/pixel-builds/main/swamp-agents/1.png",
+  "animation_url": "https://raw.githubusercontent.com/pixeldregsz-cmyk/pixel-builds/main/swamp-agents/1-idle.mp4",
   "attributes": [
     {
       "trait_type": "Body",
@@ -25,7 +26,7 @@
     },
     {
       "trait_type": "Personality",
-      "value": "Pale as a cave fish and twice as bitter about it, this bastard chain-smokes in the swamp rain and acts like the fun cap makes him the life of the party \u2014 it doesn't, it makes him look like a lost golf dad. He'll bum a light off you, insult your shoes, and then ask why nobody ever invites him anywhere. Talks slow, smokes slower, judges fastest."
+      "value": "Pale as a cave fish and twice as bitter about it, this bastard chain-smokes in the swamp rain and acts like the fun cap makes him the life of the party — it doesn't, it makes him look like a lost golf dad. He'll bum a light off you, insult your shoes, and then ask why nobody ever invites him anywhere. Talks slow, smokes slower, judges fastest."
     },
     {
       "trait_type": "Agent",
