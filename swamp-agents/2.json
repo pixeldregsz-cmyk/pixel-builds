@@ -35,5 +35,6 @@
   ],
   "description": "Orange as a traffic cone and glowing like a busted vending machine, this one stares through you with those blue rectangles and says absolutely nothing until you've already embarrassed yourself. Damp to the bone, permanently soggy, and convinced the swamp owes him rent. When he does talk it's one flat, wet sentence that ruins your whole day.",
   "image": "https://raw.githubusercontent.com/pixeldregsz-cmyk/pixel-builds/main/swamp-agents/2.png",
-  "name": "Swamp Agents #2"
+  "name": "Swamp Agents #2",
+  "animation_url": "https://raw.githubusercontent.com/pixeldregsz-cmyk/pixel-builds/main/swamp-agents/2-walk.gif"
 }
