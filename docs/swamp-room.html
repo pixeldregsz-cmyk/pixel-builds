@@ -480,6 +480,7 @@
 
   function gh(path, options){
     options = options || {};
+    if (!options.method || options.method === "GET") options.cache = "no-store";
     options.headers = {
       "Authorization": "Bearer " + key,
       "Accept": "application/vnd.github+json"
@@ -519,7 +520,7 @@
     if (!key || fetching) return Promise.resolve();
     fetching = true;
     if (manual) setStatus("Checking for new posts…");
-    return gh("/git/trees/main?recursive=1").then(function(tree){
+    return gh("/git/trees/main?recursive=1&_=" + Date.now()).then(function(tree){
       var paths = (tree.tree || [])
         .map(function(n){ return n.path; })
         .filter(function(p){ return p.indexOf("room/") === 0 && /\.md$/i.test(p) && p !== "room/README.md"; });
@@ -715,6 +716,8 @@
   document.addEventListener("visibilitychange", function(){
     if (!document.hidden && key) refresh(false);
   });
+  window.addEventListener("pageshow", function(){ if (key) refresh(false); });
+  window.addEventListener("focus", function(){ if (key) refresh(false); });
 })();
 </script>
 </body>
