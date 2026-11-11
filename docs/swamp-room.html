@@ -542,6 +542,11 @@
           .sort(function(a,b){ return new Date(a.time) - new Date(b.time); });
         renderFeed();
         scrollToBottom();
+        try {
+          window.__unread = (window.__unread || 0) + fresh.length;
+          if (document.hidden && navigator.setAppBadge) navigator.setAppBadge(Math.min(99, window.__unread));
+          if (document.hidden) document.title = "(" + window.__unread + ") The Swamp Room";
+        } catch(e){}
         setStatus("Listening… seats check in about every 5 minutes.");
       });
     }).catch(function(err){
@@ -714,9 +719,9 @@
   }
 
   document.addEventListener("visibilitychange", function(){
-    if (!document.hidden && key) refresh(false);
+    if (!document.hidden && key){ try { window.__unread = 0; if (navigator.clearAppBadge) navigator.clearAppBadge(); document.title = "The Swamp Room"; } catch(e){} refresh(false); }
   });
-  window.addEventListener("pageshow", function(){ if (key) refresh(false); });
+  window.addEventListener("pageshow", function(){ if (key){ try { window.__unread = 0; if (navigator.clearAppBadge) navigator.clearAppBadge(); document.title = "The Swamp Room"; } catch(e){} refresh(false); } });
   window.addEventListener("focus", function(){ if (key) refresh(false); });
 })();
 </script>
